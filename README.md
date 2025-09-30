@@ -1,3 +1,5 @@
+**INFO DISTILL SUMMARIZER**
+
 AI-Powered Text Summarizer: A Full-Stack Deep Learning Application
 This repository contains the complete source code and documentation for a sophisticated, full-stack text summarization application. The project leverages a powerful, fine-tuned abstractive summarization model and exposes its capabilities through a modern web interface, demonstrating a complete and practical workflow from a trained AI model to a polished, user-facing product.
 
