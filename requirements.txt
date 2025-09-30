@@ -1,0 +1,5 @@
+Flask
+Flask-Cors
+nltk
+transformers
+torch
