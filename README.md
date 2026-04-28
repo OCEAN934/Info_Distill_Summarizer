@@ -8,7 +8,7 @@ PEGASUS-powered abstractive text summarization system with React + Flask deploym
 - Portable Hugging Face deployment
 - Full-stack React + Flask application
 - ROUGE Score: 0.5148
-- Daily Mail Dataset was used
+- Fine-tuned on CNN/DailyMail dataset
   
 
 <img width="852" height="605" alt="image" src="https://github.com/user-attachments/assets/d45a32c0-eb9f-4544-8cce-080148a3cb05" />
@@ -25,7 +25,7 @@ Fine-Tuning Process: The base model underwent a rigorous fine-tuning process to 
 Model Size: The resulting fine-tuned model is 2.28 GB. Its size is a testament to its complexity and power, but it also presented significant deployment challenges that shaped the project's final architecture.
 
 ## Deep Dive: How the PEGASUS Model Works
-PEGASUS (Pre-training with Extracted Gap-sentences for Abstractive SUmmarization) introduced a novel pre-training objective that closely mimics the task of summarization. Unlike models like BERT, which learn by masking and predicting single words, PEGASUS is trained to reconstruct entire sentences that have been removed from a document.
+PEGASUS (Pre-training with Extracted Gap-sentences for Abstractive Summarization) introduced a novel pre-training objective that closely mimics the task of summarization. Unlike models like BERT, which learn by masking and predicting single words, PEGASUS is trained to reconstruct entire sentences that have been removed from a document.
 
 
 <img width="925" height="605" alt="image" src="https://github.com/user-attachments/assets/f27c0509-8f72-4a96-8e2a-fbb459246797" />
